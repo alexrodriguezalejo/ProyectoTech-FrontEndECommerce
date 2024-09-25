@@ -85,11 +85,11 @@
   > cd ../backend
   > npm install
   ### Configurar las variables de entorno:
-    - Crea un archivo .env en la carpeta backend con las siguientes variables:
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=root
-    DB_NAME=tienda_carteras
+  #### Crea un archivo .env en la carpeta backend con las siguientes variables:
+      DB_HOST=localhost
+      DB_USER=root
+      DB_PASSWORD=root
+      DB_NAME=tienda_carteras
   ### Iniciar el servidor del backend:
   > npm start
   ### Iniciar el servidor del frontend:

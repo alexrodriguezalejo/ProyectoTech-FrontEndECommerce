@@ -1,7 +1,7 @@
 # Proyecto de E-commerce: Tienda de Carteras
   ## 1.Análisis Funcional
   ### Roles de Usuarios
-  **Administrador (Vendedor):**
+    **Administrador (Vendedor):**
         - Gestiona el stock de productos.
         - Administra usuarios.
         - Revisa el historial de ventas.

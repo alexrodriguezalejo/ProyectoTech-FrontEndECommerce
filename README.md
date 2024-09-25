@@ -74,23 +74,23 @@
   - HTML, CSS, JavaScript, Bootstrap
   - Vue.js (opcional para componentes más dinámicos)
   ### Backend
-      - Node.js
-      - Express
-      - MySQL para la base de datos
+  - Node.js
+  - Express
+  - MySQL para la base de datos
   ## 4. Ejecución del Proyecto
-    ### Instalar dependencias en el frontend:
-    > cd frontend
-    > npm install
-    ### Instalar dependencias en el backend:
-    > cd ../backend
-    > npm install
-    ### Configurar las variables de entorno:
-      - Crea un archivo .env en la carpeta backend con las siguientes variables:
-      > DB_HOST=localhost
-      > DB_USER=root
-      > DB_PASSWORD=root
-      > DB_NAME=tienda_carteras
-    ### Iniciar el servidor del backend:
-    > npm start
-    ### Iniciar el servidor del frontend:
-    > npm run serve
+  ### Instalar dependencias en el frontend:
+  > cd frontend
+  > npm install
+  ### Instalar dependencias en el backend:
+  > cd ../backend
+  > npm install
+  ### Configurar las variables de entorno:
+  - Crea un archivo .env en la carpeta backend con las siguientes variables:
+    > DB_HOST=localhost
+    > DB_USER=root
+    > DB_PASSWORD=root
+    > DB_NAME=tienda_carteras
+  ### Iniciar el servidor del backend:
+  > npm start
+  ### Iniciar el servidor del frontend:
+  > npm run serve

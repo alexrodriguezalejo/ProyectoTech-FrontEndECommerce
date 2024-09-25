@@ -5,16 +5,16 @@
         - Gestiona el stock de productos.
         - Administra usuarios.
         - Revisa el historial de ventas.
-  **Usuario (Comprador):**
+    **Usuario (Comprador):**
         - Compra productos.
         - Revisa su historial de compras.
         - Gestiona su cuenta personal.
   ### Funcionalidades
-  **Login/Registro**
+    **Login/Registro**
         - Autenticación para usuarios y administradores.
         - Registro de usuarios con datos personales.
         - Edición y eliminación de datos personales.
-  **Pantalla Principal**
+    **Pantalla Principal**
         - Visualización de todas las carteras disponibles.
         - Botón estático de carrito de compras.
         - Buscador de productos (opcional).
@@ -25,11 +25,11 @@
           - Favoritos
           - Configuración
           - Cerrar sesión
-  **Gestión de Productos**
+    **Gestión de Productos**
         - Ver detalles completos de cada cartera.
         - Añadir productos al carrito de compras y a favoritos.
         - Filtro de productos por tipo.
-  **Perfil de Cliente**
+    **Perfil de Cliente**
         - Visualización y edición de datos personales.
         - Eliminar cuenta de usuario.
         - Datos de facturación y dirección de retiro (solo para el vendedor).

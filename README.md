@@ -1,10 +1,10 @@
 # Proyecto de E-commerce: Tienda de Carteras
   ## 1.Análisis Funcional
   ### Roles de Usuarios
-  **- Administrador (Vendedor):**
-      - Gestiona el stock de productos.
-      - Administra usuarios.
-      - Revisa el historial de ventas.
+  - Administrador (Vendedor):
+    - Gestiona el stock de productos.
+    - Administra usuarios.
+    - Revisa el historial de ventas.
   - Usuario (Comprador):
     - Compra productos.
     - Revisa su historial de compras.
@@ -19,44 +19,44 @@
     - Botón estático de carrito de compras.
     - Buscador de productos (opcional).
     - Barra de tareas o menú lateral con opciones para:
-    - Perfil
-    - Historial de compras/ventas
-    - Productos
-    - Favoritos
-    - Configuración
-    - Cerrar sesión
+      - Perfil
+      - Historial de compras/ventas
+      - Productos
+      - Favoritos
+      - Configuración
+      - Cerrar sesión
   - Gestión de Productos
-        - Ver detalles completos de cada cartera.
-        - Añadir productos al carrito de compras y a favoritos.
-        - Filtro de productos por tipo.
+    - Ver detalles completos de cada cartera.
+    - Añadir productos al carrito de compras y a favoritos.
+    - Filtro de productos por tipo.
   - Perfil de Cliente
-        - Visualización y edición de datos personales.
-        - Eliminar cuenta de usuario.
-        - Datos de facturación y dirección de retiro (solo para el vendedor).
+    - Visualización y edición de datos personales.
+    - Eliminar cuenta de usuario.
+    - Datos de facturación y dirección de retiro (solo para el vendedor).
   - Carrito de Compras
-        - Visualizar productos en el carrito.
-        - Editar y eliminar productos del carrito.
-        - Concretar la compra con detalle del producto y total.
-        - Notificación por email con datos de pago.
+    - Visualizar productos en el carrito.
+    - Editar y eliminar productos del carrito.
+    - Concretar la compra con detalle del producto y total.
+    - Notificación por email con datos de pago.
   - Favoritos
-        - Visualizar productos agregados como favoritos.
-        - Eliminar productos de la lista de favoritos.
+    - Visualizar productos agregados como favoritos.
+    - Eliminar productos de la lista de favoritos.
   - Historial de Ventas/Compras
-        - Visualizar productos vendidos/comprados.
+    - Visualizar productos vendidos/comprados.
   - CRUD de Productos (Administrador)
-        - Publicar nuevos productos.
-        - Editar y eliminar productos existentes.
-        - Aumentar el stock de productos.
+    - Publicar nuevos productos.
+    - Editar y eliminar productos existentes.
+    - Aumentar el stock de productos.
   - CRUD de Usuarios (Administrador)
-        - Administrar usuarios que no son administradores.
+    - Administrar usuarios que no son administradores.
   ## 2. Configuración del Entorno de Desarrollo
   ### Requisitos Previos
   - Node.js y npm instalados.
-      - MySQL y MySQL Workbench para la gestión de la base de datos.
-      - Visual Studio Code con extensiones recomendadas:
-        - ESLint
-        - Prettier
-        - Vetur (si usas Vue.js)
+    - MySQL y MySQL Workbench para la gestión de la base de datos.
+    - Visual Studio Code con extensiones recomendadas:
+      - ESLint
+      - Prettier
+      - Vetur (si usas Vue.js)
   ### Estructura del Proyecto
     /ProyectoTech-FrontEndCarteras
       |-- /frontend                 #Carpeta para el frontend (HTML, CSS, JS, Vue.js)

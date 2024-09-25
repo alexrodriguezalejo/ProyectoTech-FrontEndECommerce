@@ -3,28 +3,28 @@
   ### Roles de Usuarios
   - Administrador (Vendedor):
     - Gestiona el stock de productos.
-        - Administra usuarios.
-        - Revisa el historial de ventas.
+    - Administra usuarios.
+    - Revisa el historial de ventas.
   - Usuario (Comprador):
-        - Compra productos.
-        - Revisa su historial de compras.
-        - Gestiona su cuenta personal.
+    - Compra productos.
+    - Revisa su historial de compras.
+    - Gestiona su cuenta personal.
   ### Funcionalidades
   - Login/Registro
-        - Autenticación para usuarios y administradores.
-        - Registro de usuarios con datos personales.
-        - Edición y eliminación de datos personales.
+    - Autenticación para usuarios y administradores.
+    - Registro de usuarios con datos personales.
+    - Edición y eliminación de datos personales.
   - Pantalla Principal
-        - Visualización de todas las carteras disponibles.
-        - Botón estático de carrito de compras.
-        - Buscador de productos (opcional).
-        - Barra de tareas o menú lateral con opciones para:
-          - Perfil
-          - Historial de compras/ventas
-          - Productos
-          - Favoritos
-          - Configuración
-          - Cerrar sesión
+    - Visualización de todas las carteras disponibles.
+    - Botón estático de carrito de compras.
+    - Buscador de productos (opcional).
+    - Barra de tareas o menú lateral con opciones para:
+    - Perfil
+    - Historial de compras/ventas
+    - Productos
+    - Favoritos
+    - Configuración
+    - Cerrar sesión
   - Gestión de Productos
         - Ver detalles completos de cada cartera.
         - Añadir productos al carrito de compras y a favoritos.

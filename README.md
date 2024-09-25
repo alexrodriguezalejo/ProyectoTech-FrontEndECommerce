@@ -2,9 +2,9 @@
   ## 1.Análisis Funcional
   ### Roles de Usuarios
   **- Administrador (Vendedor):**
-    - Gestiona el stock de productos.
-    - Administra usuarios.
-    - Revisa el historial de ventas.
+      - Gestiona el stock de productos.
+      - Administra usuarios.
+      - Revisa el historial de ventas.
   - Usuario (Comprador):
     - Compra productos.
     - Revisa su historial de compras.

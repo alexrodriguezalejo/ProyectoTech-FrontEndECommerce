@@ -1,0 +1,16 @@
+/* Botón general */
+.general-btn {
+    font-size: var(--font-medium);
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    padding: var(--spacing-12) var(--spacing-36);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.general-btn:hover {
+    background-color: var(--primary-900);
+}

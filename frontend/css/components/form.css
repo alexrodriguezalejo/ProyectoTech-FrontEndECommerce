@@ -1,0 +1,38 @@
+/* Estilos del formulario */
+.contact-form {
+    flex: 2;
+    background-color: var(--dark-bg-solid);
+    padding: var(--spacing-36);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: var(--spacing-20);
+}
+
+.form-group label {
+    font-size: var(--font-medium);
+    font-weight: 500;
+    color: var(--light-bg-solid);
+    display: block;
+    margin-bottom: var(--spacing-8);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: var(--spacing-12);
+    font-size: var(--font-medium);
+    border: 1px solid var(--dark-300);
+    border-radius: 5px;
+    background-color: var(--light-bg-solid);
+    color: var(--dark-solid);
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-500);
+}

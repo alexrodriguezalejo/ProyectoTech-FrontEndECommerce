@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Electronic RA</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <nav class="navbar container">
+            <picture class="navbar__logo">
+                <a href="./index.html">
+                            
+                     <img src="./images/LogoRA.png" alt="Logotipo Electronic RA" />
+
+                </a>
+            </picture>
+          
+            <ul  class="navbar__menu">
+                <li class="navbar__item with-submenu">
+                    <a  class="navbar__link with-icon" href="./pages/error_404.html">TIENDA <iconify-icon icon="mdi:chevron-down"></iconify-icon></a>
+                    <ul class="submenu">
+                            <li class="submenu__item">
+                               <a href="" class="submenu__link">Consolas</a> 
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Celulares</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="" class="submenu__link">Accesorios de PC</a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a  class="navbar__link"href="#contacto">CONTACTO</a>
+                </li>
+                <li class="navbar__item">
+                    <a  class="navbar__link"href="./pages/error_404.html">INGRESAR</a>
+                </li>
+                <li class="navbar__item">
+                    <a  class="navbar__cart"href="./pages/error_404.html">
+                        <img src="./images/icons/cart-icon.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- FIN HEADER -->
+    <main>
+        <!-- Portada -->
+        <section class="portada">
+            <article class="portada_content container">
+                <h3 class="portada_title">ELECTRONIC RA</h3>
+                <p class="portada_text">Nos dedicamos a la venta de Consolas, Celulares y Accesorios</p>
+                <a class="nav_link" href="./pages/error_404.html">PRODUCTOS</a>
+            </article>
+        </section>
+
+        <!-- Consolas -->
+        <section class="products container">   
+            <article class="products_content">
+                <h3 class="products_title">CONSOLAS</h3>
+                <p class="products_text">Ofrecemos consolas Sony, Microsoft, Nintendo.</p>
+                <a class="nav_link" href="./pages/error_404.html">VER CONSOLAS</a>
+            </article>
+                <picture class="image_cover">
+                    <img src="./images/consolas.png" alt="Consolas">
+                </picture>
+        </section >
+        <!-- Celulares -->
+        <section class="products container">
+            <picture class="image_cover">
+                <img src="./images/celulares.png" alt="Celulares">
+            </picture >
+            <article class="products_content">
+                <h3 class="products_title">CELULARES</h3>
+                <p class="products_text">Ofrecemos varias gamas de celulares de las distintas empresas Apple, Samsung y Xiaomi</p>
+                <a class="nav_link" href="./pages/error_404.html">VER CELULARES</a>
+            </article>       
+        </section>
+        <!-- Accesorios -->
+        <section class="products container">
+            <article class="products_content">
+                <h3 class="products_title">ACCESORIOS DE COMPUTACION</h3>
+                <p class="products_text">Ofrecemos accesorios de computacion, como auriculares, teclados, mouse de distantas marcas</p>
+                <a class="nav_link" href="./pages/error_404.html">VER ACCESORIOS</a>
+            </article>
+                <picture class="image_cover">
+                    <img src="./images/accesorios.jpg" alt="Figura Coleccionable de Patronus Snape 1">
+                </picture>      
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="contact-container container">
+            <div class="contact-details">
+                <h2 class="contact-title">Contáctenos</h2>
+                <p>Su consulta no nos molesta!</p>
+                <p><img src="images/icons/map-marker-2-24.ico" alt="Ubicación">Av. La Plata 1033</p>
+                <p><img src="images/icons/phone-24.ico" alt="Teléfono"> 4915-4949</p>
+                <p><img src="images/icons/whatsapp-24.ico" alt="WhatsApp"> 1112345678</p>
+                <p><img src="images/icons/email-12-24.ico" alt="Email"> electronicra@gmail.com</p>
+            </div>
+            <form action="mailto:electronicra@gmail.com" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="Mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="general-btn">Enviar</button>
+            </form>
+        </section>
+        
+    </main> 
+
+    <!-- INICIO FOOTER -->
+    <footer>
+        <nav class="navbar container">
+            <ul class="navbar_item">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./pages/error_404.html">TIENDA</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./pages/error_404.html">REGISTRARSE</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="./pages/error_404.html">INGRESAR</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#contacto">CONTACTO</a>
+                </li>
+            </ul>
+            <picture>
+                <img  src="./images/LogoRA.png" alt="LogoRA">
+            </picture>
+        </nav>
+
+
+       <p class="footer_copy">All rights reserved 2024 - Electronic RA &copy;</p>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>

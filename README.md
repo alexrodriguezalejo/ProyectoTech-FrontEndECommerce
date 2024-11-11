@@ -1,4 +1,4 @@
-# Proyecto de E-commerce: Tienda de Carteras
+# Proyecto de E-commerce: Tienda de Electronicaa
   ## 1. Análisis Funcional
   ### Roles de Usuarios
   - Administrador (Vendedor):
@@ -15,7 +15,7 @@
     - Registro de usuarios con datos personales.
     - Edición y eliminación de datos personales.
   - Pantalla Principal
-    - Visualización de todas las carteras disponibles.
+    - Visualización de todas los productos disponibles.
     - Botón estático de carrito de compras.
     - Buscador de productos (opcional).
     - Barra de tareas o menú lateral con opciones para:
@@ -26,7 +26,7 @@
       - Configuración
       - Cerrar sesión
   - Gestión de Productos
-    - Ver detalles completos de cada cartera.
+    - Ver detalles completos de cada producto.
     - Añadir productos al carrito de compras y a favoritos.
     - Filtro de productos por tipo.
   - Perfil de Cliente
@@ -58,16 +58,16 @@
       - Prettier
       - Vetur (si usas Vue.js)
   ### Estructura del Proyecto
-    /ProyectoTech-FrontEndCarteras
+    /ProyectoTech-FrontEndECommerce
       |-- /frontend                 #Carpeta para el frontend (HTML, CSS, JS, Vue.js)
       |-- /backend                  #Carpeta para el backend (Node.js, Express, etc.)
       |-- README.md                 #Documentación del proyecto
       |-- .gitignore                #Archivos y carpetas a ignorar en git
   ### Configuración del Repositorio
   1. Clonar el repositorio:
-      > git clone https://github.com/alexrodriguezalejo/ProyectoTech-FrontEndCarteras
+      > git clone https://github.com/alexrodriguezalejo/ProyectoTech-FrontEndECommerce
   2. Navegar al directorio del repositorio:
-      > cd ProyectoTech-FrontEndCarteras
+      > cd ProyectoTech-FrontEndECommerce
 
   ## 3. Descripción de Tecnologías
   ### Frontend
@@ -89,7 +89,7 @@
       DB_HOST=localhost
       DB_USER=root
       DB_PASSWORD=root
-      DB_NAME=tienda_carteras
+      DB_NAME=tienda_electronica
   ### 4.Iniciar el servidor del backend:
   > npm start
   ### 5.Iniciar el servidor del frontend:

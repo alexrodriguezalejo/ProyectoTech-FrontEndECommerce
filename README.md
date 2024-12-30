@@ -1,4 +1,4 @@
-# Proyecto de E-commerce: Tienda de Electronicaa
+# Proyecto de E-commerce: Tienda de Consolas
   ## 1. Análisis Funcional
   ### Roles de Usuarios
   - Administrador (Vendedor):
@@ -15,7 +15,7 @@
     - Registro de usuarios con datos personales.
     - Edición y eliminación de datos personales.
   - Pantalla Principal
-    - Visualización de todas los productos disponibles.
+    - Visualización de todas las carteras disponibles.
     - Botón estático de carrito de compras.
     - Buscador de productos (opcional).
     - Barra de tareas o menú lateral con opciones para:
@@ -58,16 +58,16 @@
       - Prettier
       - Vetur (si usas Vue.js)
   ### Estructura del Proyecto
-    /ProyectoTech-FrontEndECommerce
+    /ProyectoTech-FrontEndCarteras
       |-- /frontend                 #Carpeta para el frontend (HTML, CSS, JS, Vue.js)
       |-- /backend                  #Carpeta para el backend (Node.js, Express, etc.)
       |-- README.md                 #Documentación del proyecto
       |-- .gitignore                #Archivos y carpetas a ignorar en git
   ### Configuración del Repositorio
   1. Clonar el repositorio:
-      > git clone https://github.com/alexrodriguezalejo/ProyectoTech-FrontEndECommerce
+      > git clone https://github.com/alexrodriguezalejo/ProyectoTech-FrontEndCarteras
   2. Navegar al directorio del repositorio:
-      > cd ProyectoTech-FrontEndECommerce
+      > cd ProyectoTech-FrontEndCarteras
 
   ## 3. Descripción de Tecnologías
   ### Frontend
@@ -89,7 +89,7 @@
       DB_HOST=localhost
       DB_USER=root
       DB_PASSWORD=root
-      DB_NAME=tienda_electronica
+      DB_NAME=tienda_carteras
   ### 4.Iniciar el servidor del backend:
   > npm start
   ### 5.Iniciar el servidor del frontend:

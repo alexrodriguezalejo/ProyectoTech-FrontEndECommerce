@@ -27,4 +27,5 @@
 
 @import url('./pages/index.css');
 @import url('./pages/error_404.css');
-
+@import url('./pages/products.css');
+@import url('./pages/cart.css');

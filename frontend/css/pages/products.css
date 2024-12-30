@@ -1,0 +1,153 @@
+/* Estilos para la página de productos */
+
+/* Contenedor principal de los productos */
+#product-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-40);
+    padding: var(--spacing-40);
+}
+
+h2 {
+    font-size: var(--font-display);  
+    font-family: var(--alternative-font);
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: var(--spacing-20);  
+    margin-top: var(--spacing-20);
+    color: var(--light-font-solid);
+}
+
+/* Contenedor de las cards (flexbox) */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-20); /* Mantén el espaciado entre las cards */
+    justify-content: center;
+}
+
+/* Estilo para cada card */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: var(--spacing-20);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  /* Asegura que los botones estén al final */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen de cada card (tamaño fijo) */
+.card-image {
+    width: 100%;
+    height: 200px;  /* Ajustamos una altura fija para todas las imágenes */
+    object-fit: cover;  /* Asegura que la imagen se recorte sin distorsionarse */
+    border-radius: 8px;
+    margin-bottom: var(--spacing-16);
+}
+
+/* Título de la card (aumentado de tamaño) */
+.card-title {
+    font-size: var(--font-large);  /* Aumenta el tamaño de la fuente */
+    font-weight: 300;
+    margin-bottom: var(--spacing-16);  /* Añade espacio debajo del título */
+    color: var(--primary-solid);  /* Añadir color para destacarlo */
+}
+
+/* Precio de la card */
+.card-price {
+    font-size: var(--font-small);
+    color: var(--primary-900);
+    margin-bottom: var(--spacing-16);
+}
+
+/* Botones de compra */
+.card-button, .add-to-cart-button {
+    display: block;
+    width: 100%;  /* Asegura que los botones ocupen todo el ancho disponible */
+    margin-bottom: var(--spacing-12);  /* Espacio entre los botones */
+    text-align: center;  /* Centra el texto dentro del botón */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;  /* Añadido transición para sombra */
+}
+
+.card-button {
+    background-color: var(--primary-solid);
+    color: #fff;
+    padding: var(--spacing-12) var(--spacing-24);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.card-button:hover {
+    background-color: var(--primary-500);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra suave en el hover */
+}
+
+/* Botón de "Agregar al carrito" */
+.add-to-cart-button {
+    background-color: var(--secondary-solid);
+    color: #fff;
+    padding: var(--spacing-12) var(--spacing-24);
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.add-to-cart-button:hover {
+    background-color: var(--secondary-500);
+}
+
+/* Estilo de la sección del carrito */
+#cart-section {
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart-items-container {
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que los items del carrito ocupen todo el ancho disponible */
+    max-width: 600px; /* Limita el ancho máximo */
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+#cart-total {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 200px; /* Hacer los botones más grandes */
+}
+
+button:hover {
+    background-color: #e64a19;
+}

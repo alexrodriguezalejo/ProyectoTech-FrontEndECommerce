@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Xbox One",
+    "tipo": "consola",
+    "precio": 400000,
+    "imagen": "../images/products/consolas/xbox-one.jpg"
+  },
+  {
+    "nombre": "Xbox Series X",
+    "tipo": "consola",
+    "precio": 1000000,
+    "imagen": "../images/products/consolas/xbox-series-x.jpg"
+  },
+  {
+    "nombre": "PlayStation 4",
+    "tipo": "consola",
+    "precio": 450000,
+    "imagen": "../images/products/consolas/ps4.jpg"
+  },
+  {
+    "nombre": "PlayStation 5",
+    "tipo": "consola",
+    "precio": 1200000,
+    "imagen": "../images/products/consolas/ps5.png"
+  },
+  {
+    "nombre": "Nintendo Switch Lite",
+    "tipo": "consola",
+    "precio": 400000,
+    "imagen": "../images/products/consolas/nintendo-switch-lite.jpg"
+  },
+  {
+    "nombre": "Nintendo Switch",
+    "tipo": "consola",
+    "precio": 450000,
+    "imagen": "../images/products/consolas/nintendo-switch.png"
+  },
+  {
+    "nombre": "iPhone 15",
+    "tipo": "celular",
+    "precio": 1000000,
+    "imagen": "../images/products/celulares/iphone-15-pro.jpg"
+  },
+  {
+    "nombre": "Samsung S24",
+    "tipo": "celular",
+    "precio": 900000,
+    "imagen": "../images/products/celulares/S24-ultra.jpg"
+  },
+  {
+    "nombre": "Xiaomi 14",
+    "tipo": "celular",
+    "precio": 500000,
+    "imagen": "../images/products/celulares/xiaomi-14-ultra-thumb.jpg"
+  },
+  {
+    "nombre": "Auriculares JBL Inalambricos",
+    "tipo": "accesorio",
+    "precio": 120000,
+    "imagen": "../images/products/accesorios/auriculares-jbl.jpg"
+  },
+  {
+    "nombre": "Teclado HyperX",
+    "tipo": "accesorio",
+    "precio": 75000,
+    "imagen": "../images/products/accesorios/teclado-hyperx.jpg"
+  },
+  {
+    "nombre": "Mouse",
+    "tipo": "accesorio",
+    "precio": 15000,
+    "imagen": "../images/products/accesorios/mouse-pc.png"
+  }
+]

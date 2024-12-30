@@ -138,16 +138,16 @@ h2 {
 }
 
 button {
-    padding: 10px;
-    background-color: #ff5722;
-    color: white;
+    font-size: var(--font-medium);
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    padding: var(--spacing-12) var(--spacing-36);
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
-    width: 200px; /* Hacer los botones más grandes */
 }
-
 button:hover {
-    background-color: #e64a19;
+    background-color: var(--primary-900);
 }
